@@ -1,0 +1,18 @@
+
+
+html  {
+  background-image: url('../images/Chrono-bg.jpg');
+  background-size: cover;         /* L'image couvre tout l'élément */
+  background-position: center;    /* L'image est centrée */
+  background-repeat: no-repeat;   /* L'image ne se répète pas */
+}
+
+.title{
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+  color: white;
+}
