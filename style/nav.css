@@ -34,6 +34,12 @@
   left: 0;
 }
 
+.burger-icon {
+  position: fixed; /* fixe à l'écran */
+  top: 20px;       /* distance depuis le haut */
+  left: 20px;      /* distance depuis la gauche */
+  z-index: 9999;   /* pour être au-dessus du reste */
+}
 .burger-icon span {
   display: block;
   width: 35px;
@@ -41,4 +47,5 @@
   background-color: 	#ffffff;
   margin: 6px 0;
   margin-left: 10px;
+ 
 }
