@@ -5,9 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Accueil</title>
   <link rel="stylesheet" href="./style/style.css" />
+  <link rel="stylesheet" href="./style/nav.css">
 </head>
 <body>
   <main>
+    <header>
+      <div id="mySidenav">
+        <a id="closeBtn" href="#" class="close">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+          </svg>
+        </a>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="destination.html">Destination</a></li>
+          <li><a href="reservation.html">Réservation</a></li>
+          <li><a href="tarifs.html">Nos tarifs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <a href="#" id="openBtn">
+        <span class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </a>
+    </header>
+    <!-- ============MenuBurger ↑ ================== -->
     <div class="title">
       <h1>ChronoVoyage</h1>
       <h2>— Explorez le passé, découvrez le futur —</h2>
@@ -44,10 +70,10 @@
         <img src="./images/Moderne-Passe.jpg" alt="Photo de famille">
       </div>
       <div class="bordered">
-        <img src="" alt="Famille dans le passé">
+        <img src="" alt="Premier pas sur la lune">
       </div>
       <div class="bordered">
-        <img src="" alt="Famille Égypte">
+        <img src="" alt="Famille Gaulois">
       </div>
     </section>
 
@@ -57,12 +83,15 @@
             <br> — Les Martin</p>
       </div>
       <div class="commentaire">
-        <p></p>
+        <p>« Des vacances en 1969 pour vivre le premier pas sur la Lune ! Les guides étaient passionnants et les animations incroyables. On recommande à 100 % ! »
+           <br> — Famille Moreau</p>
       </div>
       <div class="commentaire">
-        <p></p>
+        <p>« Partis de notre tribu gauloise, nous avons visité vos marchés modernes ! Tout est si coloré et parfumé. Nous avons même goûté une pizza ! Merci à vous, gens du futur. »
+         <br> — Famille Astier</p>
       </div>
     </section>
   </main>
+  <script src="./script.js"></script>
 </body>
 </html>
