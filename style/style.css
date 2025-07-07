@@ -1,18 +1,76 @@
-
-
-html  {
+html {
   background-image: url('../images/Chrono-bg.jpg');
-  background-size: cover;         /* L'image couvre tout l'élément */
-  background-position: center;    /* L'image est centrée */
-  background-repeat: no-repeat;   /* L'image ne se répète pas */
+  background-size: cover;       
+  background-position: center;    
+  background-repeat: no-repeat;  
 }
 
-.title{
+.title {
   text-align: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 p {
+  color: white;
+}
+
+.accroche {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ============= Conteneur pour aligner les .bordered côte à côte ============ */
+.bordered-container {
+  display: flex;
+  flex-wrap: wrap;          
+  justify-content: center;  
+  gap: 20px;               
+  margin: 40px 0;
+}
+
+.bordered {
+  padding: 10px; 
+  border-radius: 20px; 
+  background: linear-gradient(270deg, #5a3e27, #d7a86e, #361a02);
+  background-size: 200% 20%;
+  animation: wave 5s ease infinite;
+  width: 366px;
+}
+
+.bordered img {
+  display: block;
+  border-radius: 10px;
+  width: 355px;
+  height: 285px;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ============= Avis ============ */
+.commentaires {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center;   
+  gap: 70px;          
+}
+
+.commentaire {
+  background-color: black;
+  width: 353px;
+  height: 171px;
+  border-radius: 10px;
+  text-align: center;
   color: white;
 }
